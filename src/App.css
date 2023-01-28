@@ -1,0 +1,215 @@
+.App {
+  text-align:center;
+  background-color: #282c34;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 90vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.choreCard{
+  display: flex;
+  justify-content: space-around;
+  color:white;
+  width:500px;
+  border: 1px white solid;
+  margin-top: 7px;
+  border-radius: 12px;
+  text-align: center;
+  padding-left: 15px;
+}
+
+.input-box{
+  height: 30px;
+  font-size: medium;
+  font-weight: 200;
+  border: 1px white solid;
+  border-radius: 10px;
+  padding-left: 8px;
+}
+
+
+.addbtn{
+  background-color: #2153aa;
+  font-size: large;
+  color: white;
+}
+.resetbtn{
+  background-color: #cf1922;
+  font-size: large;
+  color: white;
+  margin-left: 5px;
+}
+.x-btn{
+  color: rgb(255, 0, 0);
+  font-size: larger;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0px;
+}
+.switch{
+  padding: 10px;
+}
+
+.switch-btn{
+  display: flex;
+  margin-left: auto;
+  padding: 10px;
+  font-size: larger;
+  background-color: rgb(69, 69, 207);
+  color: white;
+}
+.checkbox{
+  height: 30px;
+  width: 30px;
+  display: flex;
+  color: blue;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.quizPage{
+  background-color: #F5F7FB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hero{
+  background-color: #F5F7FB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.logo{
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+.desc{
+  margin-top: 10px;
+  font-size: medium;
+  font-weight: lighter;
+}
+
+.start-btn{
+  padding: 10px;
+  height: 50px;
+  width: 170px;
+  border-radius: 15px;
+  background-color: #4D5B9E;
+  color: white;
+  font-size: medium;
+}
+.options{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px black solid;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.quiz{
+  min-height: 20vh;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.options-btn{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  flex-direction: row;
+  font-size: medium;
+  height: 50px;
+  width: 180px;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.prompt{
+  font-size: larger;
+}
+
+.checkbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  width: 210px;
+  color: white;
+  font-size: larger;
+  border-radius: 25px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #4D5B9E;
+}
+
+.checkbtn2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 205px;
+  color: #ffffff;
+  font-size: large;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #4D5B9E;
+}
+
+.endPage{
+  display: flex;
+  margin-left: 255px;
+}
+
+.scoretxt{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 30px;
+}
+.editBtn{
+  margin-right: 0px;
+}
+.editBtn:hover{
+  border-bottom: 1px white solid;
+}
+.x-btn:hover{
+  border-bottom: 1px white solid;
+}
